@@ -1,4 +1,4 @@
 #!/usr/bin/python3
 import os
-cmd = 'node hello.js'
+cmd = 'node /app/hello.js'
 os.system(cmd)
