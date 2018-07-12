@@ -11,7 +11,7 @@ node {
         /* This builds the actual image; synonymous to
          * docker build on the command line */
 
-        app = docker.build("mikegriffin1978/cicd", "--no-cache.")
+        app = docker.build("mikegriffin1978/cicd", "--no-cache")
     }
 
     stage('Test image') {
