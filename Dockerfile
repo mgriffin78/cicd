@@ -1,4 +1,4 @@
-FROM mikegriffin1978/cicd:latest
+FROM mikegriffin1978/cicd:base
 
 RUN apt-get update && apt-get install python2.7 -y
 RUN apt-get install wget -y
